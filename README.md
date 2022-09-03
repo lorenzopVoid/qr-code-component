@@ -56,7 +56,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Criei primeiramente o <main> onde coloquei um id #container para começar a divisao do conteudo, dentro do main eu criei um uma <div> que corresponde ao conteudo do cartao que foi centralizado no centro do viewport sendo assim:
+Criei primeiramente o "main" onde coloquei um id #container para começar a divisao do conteudo, dentro do main eu criei uma "div" que corresponde ao conteudo do cartao que foi centralizado no centro do viewport sendo assim:
 
 ```html
 <main id="container">
@@ -64,7 +64,7 @@ Criei primeiramente o <main> onde coloquei um id #container para começar a divi
   </div>
 </main>
 ```
-dentro do content criei uma <div> para guardar a imagem QR, e em seguida outra <div> para todo o conteudo de texto do cartao:
+dentro do content criei uma "div" para guardar a imagem QR, e em seguida outra "div" para todo o conteudo de texto do cartao:
 
 ```html
 <main id="container">
@@ -87,7 +87,7 @@ a primeira tarefa foi resetar o conteudo da pagina, sendo assim
 }
 ```
 
-tendo feito isso eu comecei trabalhando com o <body> colocando uma fonte de texto estilizada como mostrado no design amostra do desafio, e instaurando a cor azul clara no background do documento e altura do viewport.
+tendo feito isso eu comecei trabalhando com o "body" colocando uma fonte de texto estilizada como mostrado no design amostra do desafio, e instaurando a cor azul clara no background do documento e altura do viewport.
 
 ```css
 body {
@@ -114,9 +114,9 @@ img {
 }
 ```
 
-A classe foi adicionada na <div> em que se encontrava a imagem, adicionando assim o padding que estava faltando. Nao foi necessario centralizar a imagem no centro do cartao pois o proprio padding e a largura definida como 100% ja haviam resolvido esse problema.
+A classe foi adicionada na "div" em que se encontrava a imagem, adicionando assim o padding que estava faltando. Nao foi necessario centralizar a imagem no centro do cartao pois o proprio padding e a largura definida como 100% ja haviam resolvido esse problema.
 
-Seguindo para formataçao do texto que estava no conteudo, adicionei uma classe "text" na <div> que continha os textos, usando essa classe para alinhar ambos os textos no centro do cartao(content) e colocar um padding nos textos sendo assim: 
+Seguindo para formataçao do texto que estava no conteudo, adicionei uma classe "text" na "div" que continha os textos, usando essa classe para alinhar ambos os textos no centro do cartao(content) e colocar um padding nos textos sendo assim: 
 
 ```css
 .text {
@@ -125,7 +125,7 @@ Seguindo para formataçao do texto que estava no conteudo, adicionei uma classe 
 }
 ```
 
-Ajustei o tamanho da fonte do <h1> como tambem adicionei a cor e font-weigth (que pode ser dispensado). Após o <h1> formatei a ultima parte que era o paragrafo, coloquei o tamanho de fonte e cor indicados convertendo o tamanho da fonte de px para em como feito em todo o decorrer do projeto, e tambem coloquei um padding adicional para ficar mais parecido como o design do desafio.
+Ajustei o tamanho da fonte do "h1" como tambem adicionei a cor e font-weigth (que pode ser dispensado). Após o "h1" formatei a ultima parte que era o paragrafo, coloquei o tamanho de fonte e cor indicados convertendo o tamanho da fonte de px para em como feito em todo o decorrer do projeto, e tambem coloquei um padding adicional para ficar mais parecido como o design do desafio.
 
 ```css
 .text p {
